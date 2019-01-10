@@ -1,0 +1,60 @@
+body {
+ background: white;
+font: normal 16px Tahoma;
+line-height: 1.6em;
+}
+
+/* Her viser jeg til ID-en jeg lagde og gjør design endringer på den	*/
+
+.navigation{
+	float: top;
+}
+
+#Nav1 h1 {
+	font-style:italic; 
+	font-weight:thick;
+	font-size:2em;
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+	display: inline;
+	background-color: black;
+	
+}
+
+.Wt{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+#Nav1 li {
+	display: inline;
+	background-color: black;
+	list-style: none;
+	padding-right: 20px;
+	padding-left: 20px;
+
+	
+	/*border:5px;*/
+	}
+
+#Nav1 a {
+	color: white
+
+}	
+.Navigation h1{
+	display: inline;
+}
+a{
+	text-decoration: none;
+	color: #000;
+
+}
+a:hover{
+	color: blue;
+}
+a:active{
+	color: green;
+}
+
